@@ -1,0 +1,11 @@
+# Переводы строк не зависят от настроек машины. Скрипты запуска и сборки для
+# macOS должны оставаться с LF: с CRLF zsh не находит интерпретатор.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.ico binary
+*.syso binary
+*.zip binary

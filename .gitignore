@@ -1,0 +1,23 @@
+# Локальные среды и скачанные движки: ставятся при первом запуске
+.venv/
+.runtime/
+.runtime-macos/
+work/uv-cache/
+
+# Результаты сборки: собираются из исходников, в git не хранятся
+dist/
+build/
+outputs/
+work/smoke-output/
+work/mmm-downloader-bootstrap/payload.zip
+*.exe
+*.dmg
+
+# Кэши инструментов
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+.DS_Store
